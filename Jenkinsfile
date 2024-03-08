@@ -49,14 +49,14 @@ pipeline {
            }
        }
 
-//        stage("Quality Gate"){
-//            steps {
-//                script {
-//                     waitForQualityGate abortPipeline: false, credentialsId: 'jekins-sonarqube-token'
-//                 }	
-//             }
+       stage("Quality Gate"){
+           steps {
+               script {
+                    waitForQualityGate abortPipeline: false, credentialsId: 'jekins-sonarqube-token'
+                }	
+            }
 
-//         }
+        }
 
 //         stage("Build & Push Docker Image") {
 //             steps {
