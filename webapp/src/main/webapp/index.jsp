@@ -1,6 +1,8 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>New user Register for DevOps Learning at Virtual TechBox Youtube Channel</h1>
+    <h1>DevOps Learning at Ashish Tiwari Channel</h1>
+    <h1>Developer(github)-->Application Repo-->Jenkins CI Job(build & test)--><br/>
+      Maven-->SonarQube(static code Analysis)-->Docker hub--> trivy(scan docker image)--> update manifast file repo--> argo CD--> Deploy EKS</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
      
